@@ -1,0 +1,14 @@
+{
+    "name": "images-to-pdf",
+    "description": "",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "./dist/bundle/background/background.js"
+    },
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "./src/frontend/popup.html"
+    },
+    "options_page": "./src/frontend/options.html"
+  }

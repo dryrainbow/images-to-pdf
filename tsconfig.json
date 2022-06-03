@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "esnext",
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "exactOptionalPropertyTypes": true,
+    "importsNotUsedAsValues": "error",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
